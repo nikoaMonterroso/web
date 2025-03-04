@@ -1,0 +1,141 @@
+.wrap {
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url(https://wallpapers.com/images/featured/teal-blue-7np7zl9yh75tafsg.jpg);
+   background-size: cover;
+}
+
+.wrap-texto {
+   color: blanchedalmond;
+   text-align: center;
+   width: 50%;
+   font-size: 300%;
+}
+
+/* Navbar */
+.navbar {
+   background: rgb(170, 219, 193);
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   padding: 10px 0;
+}
+
+.navbar a {
+   display: inline-block;
+   color: rgb(183, 154, 129);
+   text-align: center;
+   padding: 10px 15px;
+   text-decoration: none;
+   background: #ffffff;
+   border-radius: 8px;
+   font-weight: bold;
+}
+
+.navbar a:hover {
+   background-color: rgb(0, 84, 64);
+   color: aliceblue;
+   transform: scale(1.1);
+   transition: all 0.3s ease;
+}
+
+.container{
+   display: flex;
+   padding: 20px;
+
+}
+
+.left{
+   flex: 100%;
+   padding: 20px;
+}
+
+.left img{
+   width:100%;
+   height: auto;
+   margin-bottom: 10px;
+
+}
+
+.right{
+   flex: 100%;
+   padding: 20px;
+   padding-bottom: 10px;
+}
+
+.right img{
+   width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+}
+
+p{
+   text-align: justify;
+}
+
+@keyframes show{
+   from {
+       opacity: 0;
+       scale: 25%;
+   }
+   to {
+       opacity: 1;
+       scale: 100%;
+   }
+}
+
+img {
+   view-timeline-name: --image;
+   view-timeline-axis: block;
+
+   animation-timeline: --image;
+   animation-name: show;
+
+   animation-range: entry 25% cover 50%;
+   animation-fill-mode: both;
+}
+
+.texto{
+   box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+}
+
+.texto:hover{
+   transform: scale(1.1);
+   transition: all 0.3s ease;
+   background-color:#495a90;
+   color:antiquewhite;
+}
+
+.texto{
+   background-color: rgb(229, 203, 206);
+}
+
+@keyframes show{
+   from {
+       opacity: 0;
+       scale: 25%;
+   }
+   to {
+       opacity: 1;
+       scale: 100%;
+   }
+}
+
+p {
+   view-timeline-name: --image;
+   view-timeline-axis: block;
+
+   animation-timeline: --image;
+   animation-name: show;
+
+   animation-range: entry 25% cover 50%;
+   animation-fill-mode: both;
+}
+
+img{
+   box-shadow:  2px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}

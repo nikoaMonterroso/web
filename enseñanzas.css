@@ -1,0 +1,144 @@
+.wrap {
+   width: 100vw;
+   height: 50vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url(https://wallpapers.com/images/featured/teal-blue-7np7zl9yh75tafsg.jpg);
+   background-size: cover;
+}
+
+.wrap-texto {
+   color: blanchedalmond;
+   text-align: center;
+   width: 50%;
+   font-size: 300%;
+}
+
+/* Navbar */
+.navbar {
+   background: rgb(170, 219, 193);
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   padding: 10px 0;
+}
+
+.navbar a {
+   display: inline-block;
+   color: rgb(183, 154, 129);
+   text-align: center;
+   padding: 10px 15px;
+   text-decoration: none;
+   background: #ffffff;
+   border-radius: 8px;
+   font-weight: bold;
+}
+
+.navbar a:hover {
+   background-color: rgb(0, 84, 64);
+   color: aliceblue;
+   transform: scale(1.1);
+   transition: all 0.3s ease;
+}
+
+body{
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:  rgb(9, 74, 136);
+}
+
+
+.card{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 5px 10px #033f49;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.card:hover{
+  transform: scale(1.02);
+  box-shadow: 0 5px 10px #033f49;
+  background: rgb(229, 203, 206);
+}
+
+.card .img_card{
+  background: url(seragradecida.png);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
+ 
+.card .content{
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50px 150px 50px;
+  padding: 10px 15px;
+}
+
+.card .content .title h3{
+  color:#026e5e;
+
+}
+
+.card .content .text p{
+  color:rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+}
+
+.card .content .btn_container button{
+  background: #0089ba;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.card .content .btn_container button:hover{
+  background: #017eac;
+
+}
+
+/*carta2*/
+
+.card .img_card1{
+  background: url(pagardiezmo.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
+/*carta3*/
+.card .img_card2{
+  background: url(seryomisma.jpeg);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
+/*carta4*/
+.card .img_card3{
+  background: url(pisitivemind.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
+/*carta5*/
+.card .img_card4{
+  background: url(perseverancia.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
+/*carta6*/
+.card .img_card5{
+  background: url(groserias.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
